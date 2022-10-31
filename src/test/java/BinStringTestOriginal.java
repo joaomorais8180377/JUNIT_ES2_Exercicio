@@ -21,7 +21,7 @@ public class BinStringTestOriginal {
 
     @Test
     public void testBinariseFunction(){
-
+        
         String expected = "101";
         Assertions.assertEquals(expected, binString.binarise(5), "5 should be 101");
 
